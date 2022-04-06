@@ -12,11 +12,40 @@
 <body>
 
     
-    <div class="row">
-        <div class="col-6">Jhon Doe</div>
-        <div class="col-2">Portfolio</div>
-        <div class="col-2">About</div>
-        <div class="col-2">Content</div>        
+    <nav id="navbar-example2" class="navbar navbar-dark bg-dark px-3">
+        <a class="navbar-brand" href="#">Jhon Doe</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Contact</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <h4 id="scrollspyHeading1">My recent works</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading2">About me</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading3">Third heading</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading4">Fourth heading</h4>
+        <p>...</p>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>...</p>
     </div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
