@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "bootstrap": "^5.1.3"
-  }
+  },
+  "name": "bootstrap_practice",
+  "description": "This is my first Bootstrap project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucabenaventew/bootstrap_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucabenaventew/bootstrap_practice/issues"
+  },
+  "homepage": "https://github.com/lucabenaventew/bootstrap_practice#readme"
 }
